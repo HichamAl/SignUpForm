@@ -83,8 +83,41 @@ textarea {
 input {
     margin-bottom: 1rem;
     margin-right: 3rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 0.25rem;
+    height: 1.25rem;
 }
 
 input, label{
     display: block;
+}
+
+.createAccount button {
+    margin: 2rem;
+    background-color: #596D48;
+    border: none;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.5rem;
+}
+
+.createAccount p {
+    margin-left: 2rem;
+}
+
+.createAccount a {
+    color: #596D48;
+    font-weight: 700;
+}
+
+input:focus{
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0 4px gray;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
 }
