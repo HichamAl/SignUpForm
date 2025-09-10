@@ -65,3 +65,26 @@ a,p {
     height: 40%;
     box-shadow: 0 4px 2px -2px gray;
 }
+
+form {
+    width:50%;
+    height: 100%;
+    padding-left: 3rem;
+    display: flex;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+input {
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+}
+
+input, label{
+    display: block;
+}
